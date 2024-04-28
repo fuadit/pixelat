@@ -48,7 +48,7 @@ function Pixel({ selectedColor, pixelWidth, x, y, onPixelHover }: Props) {
       setOldColor('transparent');
     } else {
       setOldColor(pixelColor);
-      setPixelColor('#888');
+      setPixelColor('#ccc');
     }
   }
 
