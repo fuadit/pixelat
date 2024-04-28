@@ -37,7 +37,8 @@ function Pixel({ selectedColor, pixelWidth, x, y, onPixelHover }: Props) {
     const isEvenRow = y % 2 === 0;
     const isEvenColumn = x % 2 === 0;
     const isEvenCell = (isEvenRow && isEvenColumn) || (!isEvenRow && !isEvenColumn);
-    setPixelColor(isEvenCell ? color1 : color2);
+    setOldColor(isEvenCell ? color1 : color2);
+
   }
 
   function changeColorOnHover(event: React.MouseEvent<HTMLDivElement, MouseEvent>) {
