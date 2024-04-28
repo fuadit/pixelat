@@ -33,7 +33,7 @@ function Pixel({ selectedColor, pixelWidth, x, y, onPixelHover }: Props) {
   function handleRightClick(event: React.MouseEvent<HTMLDivElement, MouseEvent>) {
     event.preventDefault(); // Prevents the default context menu
     setPixelColor(pixelColor);
-    setOldColor('transparent');
+    setOldColor('#ccc');
   }
 
   function changeColorOnHover(event: React.MouseEvent<HTMLDivElement, MouseEvent>) {
