@@ -24,7 +24,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/pixel-art-editor.git
+   git clone https://github.com/fuadit/pixelat.git
    ```
 
 2. Navigate to the project directory:
@@ -49,7 +49,7 @@ To run this project locally, follow these steps:
 ## Usage
 
 - **Creating a Pixel Art**: Click on individual pixels to color them. Use the color picker to select different colors.
-- **Undo/Redo**: Use the undo and redo buttons to reverse or repeat your actions.
+- **Undo/Redo**: Use the right and left mouse clicks on the work area to make actions.
 - **Exporting Artwork**: Once you're satisfied with your design, use the export feature to save it in PNG or JPEG format.
 
 ## Contributing
