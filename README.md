@@ -8,10 +8,8 @@ This is a simple pixel art editor built using ReactJS, Tailwind CSS, and TypeScr
 
 - **Intuitive Interface**: The editor provides a user-friendly interface for creating pixel art designs.
 - **Responsive Design**: Built with responsive design principles, ensuring usability across various devices.
-- **Undo/Redo Functionality**: Users can easily undo or redo their actions while designing.
 - **Export**: Export your pixel art designs in popular formats such as PNG or JPEG.
 - **Color Picker**: Select colors from a wide range of options to paint your pixels.
-- **Keyboard Shortcuts**: Utilize keyboard shortcuts for faster navigation and editing.
 
 ## Demo
 
