@@ -6,7 +6,7 @@ interface Props {
   pixelWidth: number;
   x: number;
   y: number;
-  onPixelHover: (x:number, y:number) => void;
+  onPixelHover: (x: number, y: number) => void;
 }
 
 function Pixel({ selectedColor, pixelWidth, x, y, onPixelHover }: Props) {
@@ -50,7 +50,12 @@ function Pixel({ selectedColor, pixelWidth, x, y, onPixelHover }: Props) {
       applyColor(event);
     } else if (event.buttons === 2) {
       setPixelColor(pixelColor);
-      setOldColor('#ccc');
+
+      const isEvenRow = y % 2 === 0;
+      const isEvenColumn = x % 2 === 0;
+      const isEvenCell = (isEvenRow && isEvenColumn) || (!isEvenRow && !isEvenColumn);
+      setOldColor(isEvenCell ? color1 : color2);
+
     } else {
       setOldColor(pixelColor);
       setPixelColor('#888');
