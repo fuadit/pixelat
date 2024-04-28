@@ -1,0 +1,53 @@
+@import "properties.scss";
+
+#editor {
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  .popover {
+    position: "absolute";
+    z-index: "2";
+  }
+  .cover {
+    position: "fixed";
+    top: "0px";
+    right: "0px";
+    bottom: "0px";
+    left: "0px";
+  }
+
+  #options {
+    display: flex;
+    margin-bottom: 3rem;
+    justify-content: center;
+
+    .option {
+      display: flex;
+      flex-direction: row;
+    }
+
+  }
+
+  .button {
+    font-size: 1.25rem;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+    transition: background-color 0.2s ease-in-out;
+    margin-bottom: 2rem;
+
+    &:hover {
+      cursor: pointer;
+      background-color: transparent;
+    }
+  }
+
+  .color-picker {
+    margin-bottom: 1.5rem !important;
+  }
+}
