@@ -45,10 +45,10 @@ function Pixel({ selectedColor, pixelWidth, x, y, onPixelHover }: Props) {
       applyColor(event);
     } else if (event.buttons === 2) {
       setPixelColor(pixelColor);
-      setOldColor('transparent');
+      setOldColor('#ccc');
     } else {
       setOldColor(pixelColor);
-      setPixelColor('#ccc');
+      setPixelColor('#888');
     }
   }
 
