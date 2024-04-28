@@ -1,30 +1,61 @@
-# React + TypeScript + Vite
+# Pixelat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Preview](preview.gif)](https://pixelat.vercel.app/)
 
-Currently, two official plugins are available:
+This is a simple pixel art editor built using ReactJS, Tailwind CSS, and TypeScript. It allows users to create pixel art designs easily.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Intuitive Interface**: The editor provides a user-friendly interface for creating pixel art designs.
+- **Responsive Design**: Built with responsive design principles, ensuring usability across various devices.
+- **Undo/Redo Functionality**: Users can easily undo or redo their actions while designing.
+- **Export**: Export your pixel art designs in popular formats such as PNG or JPEG.
+- **Color Picker**: Select colors from a wide range of options to paint your pixels.
+- **Keyboard Shortcuts**: Utilize keyboard shortcuts for faster navigation and editing.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Demo
 
-- Configure the top-level `parserOptions` property like this:
+Check out the live demo [here](https://pixelat.vercel.app/) to explore the editor's functionality.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Installation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/pixel-art-editor.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd pixelat
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and go to http://localhost:3000 to see the editor in action.
+
+## Usage
+
+- **Creating a Pixel Art**: Click on individual pixels to color them. Use the color picker to select different colors.
+- **Undo/Redo**: Use the undo and redo buttons to reverse or repeat your actions.
+- **Exporting Artwork**: Once you're satisfied with your design, use the export feature to save it in PNG or JPEG format.
+
+## Contributing
+
+Contributions are welcome! If you encounter any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
